@@ -1,0 +1,62 @@
+.scrollToTop, .pagination_area ul li a:hover{background-color:teal
+; color:#fff}
+.scrollToTop:hover, .scrollToTop:focus, .pagination_area ul li a{background-color:#fff; color:teal
+; border-color:1px solid teal}
+.top_nav li a:hover{color:teal}
+.search_form input[type="submit"]:hover{background-color:teal}
+.navbar-default{background-color:#004D40 ;border-color: teal}
+.custom_nav li a:hover{border-color:teal}
+.custom_nav-eres li a:hover{border-color:teal;color: teal}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{background-color:#fff; color:teal
+; border-color:teal}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{background-color:#fff; color:teal
+; border-color:teal}
+.navbar-nav > li > .dropdown-menu{margin-top:1px; background-color:teal}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:#fff; color:teal
+; border-color:teal; padding-left:20px}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{color:#fff}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background-color:teal}
+.slick-prev, .slick-next{background-color:teal}
+.slick-prev:hover, .slick-next:hover{opacity:0.80}
+.bold_line span{background-color:teal}
+.catg1_nav li .post_titile a:hover{color:teal}
+.content_middle_middle:after{background-color:teal}
+.content_middle_middle:before{background-color:teal}
+.single_featured_slide > h2 a:hover{color:teal}
+.catg_titile a:hover{color:teal}
+span.meta_date:hover, span.meta_comment:hover, span.meta_more:hover, span.meta_comment a:hover, span.meta_more a:hover{color:teal}
+.media-heading a:hover{color:teal}
+.single_bottom_rightbar > h2{border-bottom:3px solid teal}
+.nav-tabs{border-bottom:1px solid teal}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus{color:teal}
+.nav-tabs > li.active > a:hover{color:teal !important}
+.nav-tabs > li > a:hover{background-color:teal
+; color:#fff !important}
+.single_bottom_rightbar ul li > a:hover{color:teal}
+.labels_nav li a:hover{background-color:teal}
+.breadcrumb{background-color:teal
+; border:2px solid teal}
+.single_page_area > h2{border-left:5px solid teal}
+.post_commentbox a:hover, .post_commentbox span:hover{color:teal}
+.single_page_content blockquote{border-color:#eee teal
+; border-left:5px solid teal}
+.single_page_content ul li:before{background:none repeat scroll 0 0 teal}
+.post_pagination{border-bottom:2px solid teal
+; border-top:2px solid teal}
+.prev{border-right:2px solid teal}
+.angle_left{background-color:teal}
+.angle_right{background-color:teal}
+.error_page_content h1:after, .error_page_content h1:before{border:2px solid teal}
+.error_page_content p{border-bottom:2px solid teal
+; border-top:2px solid teal}
+.error_page_content p:after{border-top:1px solid teal}
+.error_page_content p:before{border-top:1px solid teal}
+.error_page_content p > a:hover{color:teal}
+.our_office{border-top:2px solid teal}
+.contact_us{border-top:2px solid teal}
+.contact_form input[type="submit"]:hover{background-color:teal
+; color:#fff; border-color:teal}
+.our_office:before{border-bottom:1px solid teal}
+.contact_us:before{border-bottom:1px solid teal}
+.single_footer_top > h2{color:teal}
+.similar_post h2 i{color:teal}

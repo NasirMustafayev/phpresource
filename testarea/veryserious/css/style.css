@@ -1,0 +1,314 @@
+body{
+	font-family: Lucida Sans Unicode;
+}
+/*Gray*/
+.gray{
+	background: gray;
+	color: white;
+}
+.gray>a>h2{
+	text-align: left;
+	margin: 5px;
+	color: white
+}
+.gray>a:hover{
+	text-decoration: none
+}
+
+/*Profile*/
+.profiletab{
+	background: #F2F2F2;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px
+}
+.profileimg{
+	width: 70px;
+	height: 70px;
+	margin-right: 10px;
+	border-top-left-radius: 10px;
+}
+.profiletab>.row>h5{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 23px;
+}
+
+.spanel{
+	background: lightblue;
+	margin:10px;
+}
+.owltop{
+	position: relative;
+}
+
+/*Owlmid*/
+
+.owlmid{
+	background: #F2F2F2;
+	color:black;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+.owlmid>a{
+	color:#11A9E1;
+	text-decoration: none
+}
+.owlmid>a:hover{
+	color: gray
+}
+
+/*News*/
+
+.news{
+	padding:10px;
+}
+.news>a{
+	cursor: url('cursor.cur'), auto;
+}
+.news>a:hover{
+	color: white
+}
+.news>a>h6:hover{
+	color: gray;
+}
+.news>a>h6{
+	color: #11A9E1;
+	font-size: 15px;
+	padding-left: 5px
+}
+.news>a>span{
+	color: gray;
+	font-size: 10px;
+	float: right
+}
+
+/*Owlpost*/
+
+.owlpost{
+	padding-top: 10px
+
+}
+
+/*More button*/
+
+.morebtn{
+	background: #F2F2F2;
+	align-items: center;
+	text-align: center;
+	color: #11A9E1;
+	border-radius: 5px;
+	font-size: 13px;
+	width: 200px;
+	height: 22px;
+	border-width: 0px
+}
+.morebtn:hover{
+	background: #11A9E1;
+	color: white
+}
+/*Bar*/
+
+.bar{
+	text-align: center;
+	background: lightblue;
+}
+.bar>a{
+	margin:10px;
+	font-size: 20px;
+	color: white;
+}
+.bar>a:hover{
+	color: gray;
+	text-decoration: none
+}
+
+.item>a{
+	cursor: url('cursor.cur'), auto;
+}
+
+/*Related*/
+.related{
+	background: #11A9E1;
+	color: white;
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px
+}
+.related>.col-sm>a{
+	color: white;
+}
+
+/*Footgray*/
+.footgray{
+	background: #F2F2F2;
+	color: #11A9E1;
+	padding:25px;
+}
+.footgray2{
+	background: #F2F2F2;
+	color: #11A9E1;
+	padding:25px;
+	position: absolute;
+	bottom: 0px
+}
+
+.bluepanel{
+	background: #11A9E1;
+	color: white;
+	border-radius: 5px;
+	padding-bottom: 70px;
+	padding-top: 10px
+}
+
+/*Blue buttons*/
+
+.bluebutton{
+	background: #F2F2F2;
+	align-items: center;
+	text-align: center;
+	color: #11A9E1;
+	border-radius: 5px;
+	width: 100%;
+	height: 35px;
+	border-width: 0px;
+
+}
+.bluebutton:hover{
+	background: #11A9E1;
+	color: white;
+	border-width: 1px;
+	border-color: white
+}
+
+.bluebuttonadd{
+	background: #11A9E1;
+	color: white;
+	width: 200px;
+	border-radius: 10px;
+	border-width: 0px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+
+}
+.bluebuttonadd:hover{
+	background: gray;
+	color: white;
+	border-color: #11A9E1;
+	text-decoration: none;
+}
+
+.bluebuttonadd>img{width: 28px}
+
+
+.bluetext{
+	color: #11A9E1;
+	margin-right: 10px
+}
+.whiteh3{
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 20px
+}
+
+/*Comment box*/
+
+.cmb{
+	background:  #F2F2F2;
+	font-size: 12px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.cmbimg{
+	border-radius: 100%;
+	max-width: 35px;
+}
+.cmbimgsm{
+	border-radius: 100%;
+	max-width: 30px;
+}
+.cmbtxtarea{
+	max-width: 250px;
+	min-height: 80px;
+}
+
+/*Author*/
+
+.author{
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px
+
+}
+.author>span{
+	background: #11A9E1;
+	color: white;
+}
+.author>img{
+	border-radius: 100%;
+	max-width: 30px;
+}
+.author>a{
+	color: #11A9E1;
+	margin-left: 10px
+}
+
+/*Bluebutton commentsbox*/
+.bluebuttoncmb{
+	background: #F2F2F2;
+	align-items: center;
+	text-align: center;
+	color: #11A9E1;
+	border-radius: 5px;
+	width: 100px;
+	height: 35px;
+	float: right;
+	margin-bottom: 10px;
+	border-width: 0px;
+
+}
+.bluebuttoncmb:hover{
+	background: #11A9E1;
+	color: white
+}
+
+/*Tag*/
+.tags{
+	margin-bottom: 10px
+}
+.tagbtn{
+	background: #F2F2F2;
+	font-size: 12px;
+	width: 30px;
+	padding: 2px;
+	margin-left: 5px;
+}
+
+
+.abtxtarea{
+	font-style: italic;
+	background: #F2F2F2;
+	min-height: 100px
+}
+.fileup{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	background: #F2F2F2;
+}
+.fileup>input{
+	max-width: 250px;
+	height: 32px;
+	font-size: 12px
+}
+
+.selector-for-some-widget {
+	box-sizing: content-box;
+}
+.ck-editor__editable_inline {
+	min-height: 199px
+}

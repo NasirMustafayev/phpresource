@@ -1,0 +1,12 @@
+RewriteEngine on
+ErrorDocument 404 http://localhost/Fliyingdreams/404
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteRule ^page-([0-9a-zA-Z-_]+) menu-detail.php?page=$1 [L,QSA]
+RewriteRule ^user_([0-9a-zA-Z-_]+)-([0-9]+)$  profile.php?username=$1&id=$2 [L,QSA]
+RewriteRule ^shared-([0-9a-zA-Z-_]+)$ shares.php?type=$1 [L,QSA]
+RewriteRule ^about-([0-9a-zA-Z-_]+)-([0-9]+)$  aboutuser.php?username=$1&id=$2 [L,QSA]
+RewriteRule ^album-([0-9a-zA-Z-_]+)-([0-9]+)$  album.php?username=$1&id=$2 [L,QSA]

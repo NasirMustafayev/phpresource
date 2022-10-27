@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Veryserio.us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md gray">
+				<a href="index.html">
+					<h2>Veryserio.us</h2>
+				</a>
+			</div>
+			<div class="col-md-3 bar">
+				<a href="registration.html">Registration</a>
+				<a href="registration.html">Login</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 fileup">
+				<label for="contentimages">Images</label>
+				<input type="file" name="images" id="contentimages" class="form-control" multiple="">
+			</div>
+			<div class="col-md-2 fileup">
+				<label for="thumbnail">Thumbnail</label>
+				<input type="file" name="thumb" id="thumbnail" class="form-control">
+			</div>
+			<br/>
+			<div class="col-md-12 profiletab">
+				<div id="editor" style="display:none"></div> 
+				<div class="ck-reset ck-editor">
+				</div>
+				<!-- This is the editable element -->
+				<div class="ck-blurred ck-editor__editable ck-rounded-corners ck-editor__editable_inline" role="textbox" aria-label="Rich Text Editor, main" contenteditable="true">
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+
+<footer>
+	<div class="container-fluid footgray">
+		<div class="row">
+			<div class="col-md-9">
+				All posts on this website are for joke purposes
+
+			</div>
+			<div class="col-sm" style="text-align: right;">
+				2019 - Veryserio.us
+			</div>
+		</div>
+	</div>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/owl_conf.js"></script>
+	<script src="js/ckeditor.js"></script>
+	<script>
+		ClassicEditor
+		.create( document.querySelector( '#editor' ), {
+			toolbar: [ 'heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote' ],
+			heading: {
+				options: [
+				{ model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
+				{ model: 'heading1', view: 'h1', title: 'Heading 1', class: 'ck-heading_heading1' },
+				{ model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' }
+				]
+			}
+		} )
+		.catch( error => {
+			console.log( error );
+		} );
+
+	</script>
+</footer>
+</html>
